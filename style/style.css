@@ -1,1 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+    /* font-weight: 100;
+  font-style: normal; */
+} 
+#navbar nav ul li a{
+   font-size: 1.2rem;
+} 
+#navbar nav ul li {
+     text-align: center;
+} 
+#background-image .container-fluid  .container_image{
+     background-image: url(../images/bg_image.webp);
+    width: 100%; 
+    height: auto;
+     background-size: cover;
+      background-position: center;
+       object-fit: cover;
+}
+#background-image .container_image .bg_color{
+    background-color: rgba(0, 0,0, 0.5);
+      height: 95vh; 
+      z-index: 1;
+     background-blend-mode: overlay;
+}
+
+ /* BACKGROUND-TEXT START */
+ #background-text  .text{
+    height: 95vh;
+ }
+ #background-text  strong{
+     font-size: 3rem;
+ }
+
+ #background-text a{
+    text-decoration: none;
+     background-color: #f3c745; 
+     padding: 18px 28px;
+       width: 20%;
+        text-align: center;
+     color: #604906; 
+     font-size: 2rem;
+ }
+ /* BACKGROUND-TEXT COMPLETE */
+
+
+  /* Agent facilityes Start  */
+ #agent-facility .container-fluid{
+    background-color: var(--sectwobg);
+     height: 40vh;
+ }
+ /* Agent FACALITYES COMPLETE  */
+
+        /* DEALS IN START */
+
+ #section-three .container-fluid{
+    background-color: var(--sectwobg);
+     height: auto;
+     margin-top: 2rem;
+
+ }
+ #section-three .container-fluid .image img{
+    width: 100%;
+     object-fit: cover;
+
+ }
+
+ #deals-in h2{
+   margin: 1em 0em;
+    font-weight: 400;
+ }
+
+ #deals-in .image1 img ,.image2 img , .image3 img , .image3 img , .image4 img  {
+    width: 100%;
+     height: 40vh;
+      object-fit: cover;
+ }
+  
+ h3{
+    color: #f3c745;
+ }
+ #section-three p{
+   font-size: 1.4rem;
+ }
+ /* DEALS IN COMPLETE */
+
+ /* OUR VISION START */
+
+ #vision-section .image{
+    background-image: url(../images/map.webp);
+    max-width: 100vw; 
+    height: auto;
+     background-size: cover;
+      background-position: center;
+       object-fit: cover;
+        background-attachment: fixed;
+ }
+ #vision-section .vision-first-heading{
+     padding: 3em 0em;
+ }
+ #vision-section .image .bg-color{
+    background-color: rgba(0, 0,0,0.9);
+    max-width: 100vw; 
+     height:80vh; 
+     z-index: 1;
+ }
+ #vision-section .line{
+    width: 10%;
+     background-color: #f3c745;
+      height: 6px;
+       margin: 5px 0px 2px;
+ }
+ /* OUR VISION COMPLETE */
+
+ /* OUR SKILLS START */
+
+ #Our-Skill .round-one , .round-two{
+    border: 4px solid yellow;
+    border-radius: 50%;
+     width: 10rem; 
+     height: 10rem;
+      display: flex;
+       justify-content: center;
+        align-items: center;
+
+ }
+ /* OUR SKILLS COMPLETE */
+ #CONTACT-US .container-fluid{
+    background-color: var(--sectwobg); 
+    height: auto;
+
+ }
+
+ /* CONTACT-US START */
+ #CONTACT-US ul li {
+    list-style-type: none;
+    display: flex;
+     justify-content: center;
+      flex-direction: column;
+       align-items: center;
+        gap: 0.3rem;
+        
+ }
+ #CONTACT-US ul li a {
+    text-decoration: none;
+    color: black;
+}
+#CONTACT-US ul li a i{
+     margin-right: 12px;
+     color: #f3c745;
+
+
+ }
+ /* CONTACT-US COMPLETE */
+
+ /* MAP START */
+ #map iframe{
+    border:0; 
+    width: 100%;
+     height: 100vh;
+
+ }
+ /* MAP COMPLETE */
+
  
+ /* FOOTER START */
+ #footer ul{
+    list-style-type: none;
+    
+ }
+ #footer li{
+     margin: 1em 0em;
+    
+ }
+ /* #footer ul .last_text span  a{
+ 
+ } */
+ /* FOOTER COMPLETE */
+
+ *,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+svg{width:30%;}
